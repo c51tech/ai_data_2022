@@ -11,3 +11,4 @@ $ conda create -n mmdl -c anaconda -c conda-forge jupyter matplotlib seaborn tqd
 $ conda activate mmdl
 (mmdl)$ conda install -c plotly plotly
 (mmdl)$ conda install pytorch torchvision cudatoolkit=11.3 -c pytorch
+(mmdl)$ conda install -c conda-forge pytorch-lightning pyarrow
