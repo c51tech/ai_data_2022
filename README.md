@@ -7,8 +7,8 @@
 python3 + pandas + matplotlib/seaborn/plotly + scikit-learn/pytorch
 
 ```bash
-$ conda create -n mmdl -c anaconda -c conda-forge jupyter matplotlib seaborn tqdm scipy pandas munch tensorboard scikit-learn
+$ conda create -n mmdl -c anaconda -c conda-forge jupyter jupytext matplotlib seaborn tqdm scipy pandas munch tensorboard scikit-learn pyarrow
 $ conda activate mmdl
 (mmdl)$ conda install -c plotly plotly
 (mmdl)$ conda install pytorch torchvision cudatoolkit=11.3 -c pytorch
-(mmdl)$ conda install -c conda-forge pytorch-lightning pyarrow
+(mmdl)$ conda install -c conda-forge pytorch-lightning 
