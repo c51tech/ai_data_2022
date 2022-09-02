@@ -12,3 +12,4 @@ $ conda activate mmdl
 (mmdl)$ conda install -c plotly plotly
 (mmdl)$ conda install pytorch torchvision cudatoolkit=11.3 -c pytorch
 (mmdl)$ conda install -c conda-forge pytorch-lightning 
+```
