@@ -7,9 +7,11 @@
 python3 + pandas + matplotlib/seaborn/plotly + scikit-learn/pytorch
 
 ```bash
-$ conda create -n mmdl -c anaconda -c conda-forge jupyter jupytext matplotlib seaborn tqdm scipy pandas munch tensorboard scikit-learn pyarrow
+$ conda create -n mmdl -c anaconda -c conda-forge jupyter jupytext matplotlib seaborn tqdm scipy pandas munch tensorboard scikit-learn pyarrow openpyxl
 $ conda activate mmdl
+(mmdl)$ pip install opencv-python
 (mmdl)$ conda install -c plotly plotly
-(mmdl)$ conda install pytorch torchvision cudatoolkit=11.3 -c pytorch
+--(mmdl)$ conda install pytorch torchvision cudatoolkit=11.3 -c pytorch--
+(mmdl)$ conda install pytorch torchvision pytorch-cuda=11.6 -c pytorch -c nvidia
 (mmdl)$ conda install -c conda-forge pytorch-lightning 
 ```
