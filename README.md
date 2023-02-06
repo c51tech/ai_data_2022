@@ -11,7 +11,12 @@ $ conda create -n mmdl -c anaconda -c conda-forge jupyter jupytext matplotlib se
 $ conda activate mmdl
 (mmdl)$ pip install opencv-python
 (mmdl)$ conda install -c plotly plotly
---(mmdl)$ conda install pytorch torchvision cudatoolkit=11.3 -c pytorch--
+
 (mmdl)$ conda install pytorch torchvision pytorch-cuda=11.6 -c pytorch -c nvidia
 (mmdl)$ conda install -c conda-forge pytorch-lightning 
+```
+
+참고: cuda 11.3 으로 설치 시
+```bash
+(mmdl)$ conda install pytorch torchvision cudatoolkit=11.3 -c pytorch 
 ```
