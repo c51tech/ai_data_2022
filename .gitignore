@@ -130,4 +130,7 @@ dmypy.json
 
 env.py
 logs_resnet_off/
+logs/
 *.json
+*.zip
+
